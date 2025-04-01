@@ -5,7 +5,7 @@ from PIL import Image
 from io import BytesIO
 
 # Fetch API key from the environment variable
-API_KEY = "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"  
+API_KEY = ""  
 if not API_KEY:
     raise ValueError("Hugging Face API Key is missing! Set it in 'Repository secrets'.")
 
